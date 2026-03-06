@@ -15,11 +15,11 @@ def find_by_name(items, name):
 
 def main(name, weapon_name, armor_name, pet_name, thaumaturgist_name):
     # Load all JSON files
-    enchantments = load_json('enchantmens.json')
-    players = load_json('player.json')
-    weapons_and_armor = load_json('weapons.json')
-    pets = load_json('pets.json')
-    thaumaturgists = load_json('thaumaturgist.json')
+    enchantments = load_json('Json/enchantmens.json')
+    players = load_json('Json/player.json')
+    weapons_and_armor = load_json('Json/weapons.json')
+    pets = load_json('Json/pets.json')
+    thaumaturgists = load_json('Json/thaumaturgist.json')
 
     # Initialize calculator with enchantment configuration
     calc = DamageCalculator(enchantments)

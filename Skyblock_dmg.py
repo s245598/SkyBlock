@@ -119,23 +119,13 @@ class DamageCalculator:
         filename = f"{player_name}_{weapon_name}_{armor_name}_{pet_name}_{timestamp}.csv"
         filepath = os.path.join(output_folder, filename)
         
-        # --- Skriv CSV med kolonner for hver mob-type ---
         with open(filepath, "w", newline="") as f:
             writer = csv.writer(f)
-            writer.writerow(formatted_dmg.keys())   # header
-            writer.writerow(formatted_dmg.values()) # værdier
+            writer.writerow(formatted_dmg.keys()) 
+            writer.writerow(formatted_dmg.values())
 
-        # --- Åbn filen automatisk (Windows) ---
-        #     os.startfile(filepath)
         
         return formatted_dmg
         
-        #    if dmg < 1000:
-        #        return round(dmg,2)
-        #    elif dmg > 1000:
-        #    dmg_k = dmg/1000
-        #    return round(dmg_k,2),"k"
-        #    else:
-        #        print("Error in function")
 
 
