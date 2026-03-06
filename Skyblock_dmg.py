@@ -92,7 +92,7 @@ class DamageCalculator:
 
         dmg = dmg_results
 
-        formatted_dmg = {}  # et nyt dictionary til de nye værdier
+        formatted_dmg = {}
 
         for name, value in dmg.items():
             if value < 1000:
@@ -102,15 +102,13 @@ class DamageCalculator:
                 formatted_dmg[name] = str(round(value / 1000, 4)) + "k"
             else:
                 print(f"Error in {name}")
-                formatted_dmg[name] = None  # hvis du vil have en default
+                formatted_dmg[name] = None 
 
 
         
-        # --- Sørg for output-mappe ---
         output_folder = "output_dmg"
-        os.makedirs(output_folder, exist_ok=True)  # laver mappen hvis den ikke findes
+        os.makedirs(output_folder, exist_ok=True)
 
-        # --- Lav filnavn ud fra argumenter + tidsstempel ---
         player_name = player.get("name", "player")
         weapon_name = weapon.get("name", "weapon")
         armor_name = armor.get("name", "armor")
