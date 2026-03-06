@@ -1,0 +1,80 @@
+{
+    "Bane_value": {
+        "1": 0.1,
+        "2": 0.2,
+        "3": 0.3,
+        "4": 0.4,
+        "5": 0.6,
+        "6": 0.8
+    },
+    "Sharp_value": {
+        "1": 0.05,
+        "2": 0.1,
+        "3": 0.15,
+        "4": 0.2,
+        "5": 0.3,
+        "6": 0.45,
+        "7": 0.65
+    },
+    "Smite_value": {
+        "1": 0.1,
+        "2": 0.2,
+        "3": 0.3,
+        "4": 0.4,
+        "5": 0.6,
+        "6": 0.8
+    },
+    "Gravity_value": {
+        "1": 0.1,
+        "2": 0.2,
+        "3": 0.3,
+        "4": 0.4,
+        "5": 0.6
+    },
+    "Impaling_value": {
+        "1": 0.1,
+        "2": 0.2,
+        "3": 0.3,
+        "4": 0.4,
+        "5": 0.6
+    },
+    "Cubism_value": {
+        "1": 0.1,
+        "2": 0.2,
+        "3": 0.3,
+        "4": 0.4,
+        "5": 0.6
+    },
+    "Ender_slayer_value": {
+        "1": 0.15,
+        "2": 0.3,
+        "3": 0.45,
+        "4": 0.6,
+        "5": 0.8
+    },
+    "mob_enchants": {
+        "Airborne": ["Gravity", "Sharp"],
+        "Animals": ["Sharp"],
+        "Aquatic": ["Impaling", "Sharp"],
+        "Arcane": ["Sharp"],
+        "Arthropod": ["Bane", "Bane_perk", "Sharp"],
+        "Construct": ["Sharp"],
+        "Cubic": ["Cubism", "Sharp"],
+        "Ender": ["Ender_slayer", "Sharp"],
+        "Elusive": ["Sharp"],
+        "Frozen": ["Sharp"],
+        "Glacial": ["Sharp"],
+        "Humanoid": ["Sharp"],
+        "Infernal": ["Sharp"],
+        "Magmatic": ["Sharp"],
+        "Mysthological": ["Sharp"],
+        "Pest": ["Sharp"],
+        "Shielded": ["Sharp"],
+        "Skeletal": ["Smite", "Sharp"],
+        "Spooky": ["Sharp"],
+        "Subterranean": ["Sharp"],
+        "Undead": ["Smite", "Sharp"],
+        "Wither": ["Smite", "Sharp"],
+        "Woodland": ["Sharp"]
+    }
+}

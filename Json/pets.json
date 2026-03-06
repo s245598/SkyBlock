@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Test_pet",
+        "Health": 0,
+        "Defense": 0,
+        "True_def": 0,
+        "Strength": 0,
+        "Crit_Chance": 0,
+        "Crit_dmg": 0,
+        "Health_regen": 0,
+        "Speed": 0,
+        "ferocity": 0,
+        "Magic_find": 0,
+        "Pet_luck": 0,
+        "Extra_weapon_base_dmg": 0,
+        "Extra_weapon_strength": 0
+    },
+    {
+        "name": "Tarantula_pet",
+        "Health": 0,
+        "Defense": 0,
+        "True_def": 0,
+        "Strength": 9.3,
+        "Crit_Chance": 13.02,
+        "Crit_dmg": 39.06,
+        "Health_regen": 0,
+        "Speed": 0,
+        "ferocity": 0,
+        "Magic_find": 0,
+        "Pet_luck": 0,
+        "Extra_weapon_base_dmg": 0,
+        "Extra_weapon_strength": 0
+    },
+    {
+        "name": "Lion_pet",
+        "Health": 0,
+        "Defense": 0,
+        "True_def": 0,
+        "Strength": 43,
+        "Crit_Chance": 5,
+        "Crit_dmg": 0,
+        "Health_regen": 0,
+        "Speed": 0,
+        "ferocity": 4.3,
+        "Magic_find": 21.5,
+        "Pet_luck": 0,
+        "Extra_weapon_base_dmg": 17.2,
+        "Extra_weapon_strength": 17.2
+    }
+]
