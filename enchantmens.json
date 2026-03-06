@@ -51,5 +51,30 @@
         "3": 0.45,
         "4": 0.6,
         "5": 0.8
+    },
+    "mob_enchants": {
+        "Airborne": ["Gravity", "Sharp"],
+        "Animals": ["Sharp"],
+        "Aquatic": ["Impaling", "Sharp"],
+        "Arcane": ["Sharp"],
+        "Arthropod": ["Bane", "Bane_perk", "Sharp"],
+        "Construct": ["Sharp"],
+        "Cubic": ["Cubism", "Sharp"],
+        "Ender": ["Ender_slayer", "Sharp"],
+        "Elusive": ["Sharp"],
+        "Frozen": ["Sharp"],
+        "Glacial": ["Sharp"],
+        "Humanoid": ["Sharp"],
+        "Infernal": ["Sharp"],
+        "Magmatic": ["Sharp"],
+        "Mysthological": ["Sharp"],
+        "Pest": ["Sharp"],
+        "Shielded": ["Sharp"],
+        "Skeletal": ["Smite", "Sharp"],
+        "Spooky": ["Sharp"],
+        "Subterranean": ["Sharp"],
+        "Undead": ["Smite", "Sharp"],
+        "Wither": ["Smite", "Sharp"],
+        "Woodland": ["Sharp"]
     }
 }
