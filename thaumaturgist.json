@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Adept",
+        "Health": 456,
+        "Defense": 253,
+        "Strength": 0,
+        "Crit_Chance": 0,
+        "Crit_dmg": 0,
+        "Vitality": 0,
+        "Intelligence": 76,
+        "ferocity": 0,
+        "Magic_find": 0,
+        "Pet_luck": 0,
+        "Speed": 0
+    },
+    {
+        "name": "Silky",
+        "Health": 0,
+        "Defense": 0,
+        "Strength": 0,
+        "Crit_Chance": 0,
+        "Crit_dmg": 483,
+        "Vitality": 0,
+        "Intelligence": 0,
+        "ferocity": 0,
+        "Magic_find": 0,
+        "Pet_luck": 0,
+        "Speed": 13,
+        "Attack_speed": 5
+    },
+    {
+        "name": "Sanguisuge",
+        "Health": 107,
+        "Defense": 0,
+        "Strength": 254,
+        "Crit_Chance": 0,
+        "Crit_dmg": 102,
+        "Vitality": 25,
+        "Intelligence": 76,
+        "ferocity": 0,
+        "Magic_find": 0,
+        "Pet_luck": 0,
+        "Speed": 0
+    },
+    {
+        "name": "thaumaturgist_none",
+        "Health": 0,
+        "Defense": 0,
+        "Strength": 0,
+        "Crit_Chance": 0,
+        "Crit_dmg": 0,
+        "Vitality": 0,
+        "Intelligence": 0,
+        "ferocity": 0,
+        "Magic_find": 0,
+        "Pet_luck": 0,
+        "Speed": 0
+    },
+    {
+        "name": "Accessory_powers",
+        "none": 0
+    }
+]

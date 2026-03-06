@@ -1,0 +1,28 @@
+[
+    {
+        "name": "MatizenDK",
+        "Combat_level_skill": 1.64,
+        "Health": 1278,
+        "Defense": 73,
+        "Strength": 342.72,
+        "Crit_Chance": 49.5,
+        "Crit_dmg": 246.72,
+        "ferocity": 0,
+        "Magic_find": 11.5,
+        "Pet_luck": 37,
+        "Speed": 144
+    },
+    {
+        "name": "Redlom3n",
+        "Combat_level_skill": 1.6,
+        "Health": 1879.5,
+        "Defense": 115,
+        "Strength": 187,
+        "Crit_Chance": 49.5,
+        "Crit_dmg": 62,
+        "ferocity": 0,
+        "Magic_find": 15,
+        "Pet_luck": 52,
+        "Speed": 121
+    }
+]
