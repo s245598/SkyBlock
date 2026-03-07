@@ -104,25 +104,6 @@ class DamageCalculator:
                 print(f"Error in {name}")
                 formatted_dmg[name] = None 
 
-
-        
-        output_folder = "output_dmg"
-        os.makedirs(output_folder, exist_ok=True)
-
-        player_name = player.get("name", "player")
-        weapon_name = weapon.get("name", "weapon")
-        armor_name = armor.get("name", "armor")
-        pet_name = pet.get("name", "pet")
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"{player_name}_{weapon_name}_{armor_name}_{pet_name}_{timestamp}.csv"
-        filepath = os.path.join(output_folder, filename)
-        
-        with open(filepath, "w", newline="") as f:
-            writer = csv.writer(f)
-            writer.writerow(formatted_dmg.keys()) 
-            writer.writerow(formatted_dmg.values())
-
-        
         return formatted_dmg
         
 
